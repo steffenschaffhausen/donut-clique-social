@@ -1,6 +1,7 @@
 POV: Du kennst in Brückwil niemanden. 👀
 
-Ich bin Leo. Und ich erzähl euch jetzt, wie aus vier Fremden eine Clique wurde. Jeden Mi, Fr und So.
+Ich bin Leo. Und ich erzähl euch, wie aus vier Fremden eine Clique wurde.
+Die ganze Story: oben im Profil. 👆
 
 Folgt uns. Ich brauch die Follower. Ehrlich. 🙏
 

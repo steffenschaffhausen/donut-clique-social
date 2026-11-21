@@ -3,272 +3,2052 @@
   "hashtags": "#DieDonutClique #BevorWirUnsKannten #Brückwil #Comic #Donuts #Freundschaft #Clique #IndieGame #MadeInSwitzerland",
   "posts": [
     {
-      "id": "01-auftakt", "date": "2026-11-29T11:00:00+01:00", "format": "reel", "cover": 9000,
+      "id": "01-auftakt",
+      "date": "2026-11-25T17:30:00+01:00",
+      "format": "reel",
+      "cover": 9000,
       "alt": "Animiertes Video: Pop-Art-Comic. POV: Du kennst in Brückwil niemanden. Schnitte durch Badi, Werkstatt, Kiosk und Markt, dann die Köpfe von Leo, Jonas, Aysha und Mila. Leo stellt sich vor.",
-      "caption": "POV: Du kennst in Brückwil niemanden. 👀\n\nIch bin Leo. Und ich erzähl euch jetzt, wie aus vier Fremden eine Clique wurde. Jeden Mi, Fr und So.\n\nFolgt uns. Ich brauch die Follower. Ehrlich. 🙏",
+      "caption": "POV: Du kennst in Brückwil niemanden. 👀\n\nIch bin Leo. Und ich erzähl euch, wie aus vier Fremden eine Clique wurde.\nDie ganze Story: oben im Profil. 👆\n\nFolgt uns. Ich brauch die Follower. Ehrlich. 🙏",
       "tags": "#POV",
       "shots": [
-        { "dur": 2000, "bg": "coral", "els": [
-          { "k": "box", "text": "POV:", "x": 80, "y": 330, "fs": 64, "a": [["pop", 0, 350]] },
-          { "k": "big", "text": "Du kennst\nin Brückwil\nniemanden.", "x": 80, "y": 480, "w": 940, "fs": 140, "a": [["slam", 200, 450]] },
-          { "k": "burst", "text": "?!", "x": 680, "y": 1130, "w": 320, "fs": 140, "fill": "#e8b22c", "a": [["pop", 900, 400]] } ] },
-        { "dur": 750, "bg": "mustard", "speed": -14, "els": [
-          { "k": "scene", "key": "badi", "x": 0, "y": 480, "w": 1080, "h": 880, "a": [["zoom", 0, 750, "linear"]] },
-          { "k": "rect", "x": 0, "y": 471, "w": 1080, "h": 898, "style": "border-top:9px solid #1d1d1b;border-bottom:9px solid #1d1d1b" },
-          { "k": "burst", "text": "BADI!", "x": 190, "y": 690, "w": 700, "fs": 150, "fill": "#7fd6b5", "a": [["slam", 0, 300]] } ] },
-        { "dur": 750, "bg": "coral", "speed": 14, "els": [
-          { "k": "scene", "key": "chain", "x": 0, "y": 480, "w": 1080, "h": 880, "a": [["zoom", 0, 750, "linear"]] },
-          { "k": "rect", "x": 0, "y": 471, "w": 1080, "h": 898, "style": "border-top:9px solid #1d1d1b;border-bottom:9px solid #1d1d1b" },
-          { "k": "burst", "text": "WERKSTATT!", "x": 90, "y": 700, "w": 900, "fs": 118, "fill": "#ff7a5c", "tc": "#fff6e6", "a": [["slam", 0, 300]] } ] },
-        { "dur": 750, "bg": "mint", "speed": -14, "els": [
-          { "k": "scene", "key": "kiosk", "x": 0, "y": 480, "w": 1080, "h": 880, "a": [["zoom", 0, 750, "linear"]] },
-          { "k": "rect", "x": 0, "y": 471, "w": 1080, "h": 898, "style": "border-top:9px solid #1d1d1b;border-bottom:9px solid #1d1d1b" },
-          { "k": "burst", "text": "KIOSK!", "x": 190, "y": 690, "w": 700, "fs": 150, "fill": "#e8b22c", "a": [["slam", 0, 300]] } ] },
-        { "dur": 750, "bg": "petrol", "speed": 14, "els": [
-          { "k": "scene", "key": "market", "x": 0, "y": 480, "w": 1080, "h": 880, "a": [["zoom", 0, 750, "linear"]] },
-          { "k": "rect", "x": 0, "y": 471, "w": 1080, "h": 898, "style": "border-top:9px solid #1d1d1b;border-bottom:9px solid #1d1d1b" },
-          { "k": "burst", "text": "MARKT!", "x": 190, "y": 690, "w": 700, "fs": 150, "fill": "#fff6e6", "a": [["slam", 0, 300]] } ] },
-        { "dur": 2500, "bg": "petrol", "els": [
-          { "k": "big", "text": "Vier Leute.", "x": 80, "y": 270, "w": 940, "fs": 140, "a": [["slam", 0, 350]] },
-          { "k": "head", "who": "leo", "x": 110, "y": 560, "w": 360, "rot": -6, "a": [["pop", 250, 350]] },
-          { "k": "head", "who": "jonas", "x": 610, "y": 540, "w": 360, "rot": 5, "a": [["pop", 450, 350]] },
-          { "k": "head", "who": "aysha", "x": 110, "y": 990, "w": 360, "rot": 4, "a": [["pop", 650, 350]] },
-          { "k": "head", "who": "mila", "x": 610, "y": 970, "w": 360, "rot": -5, "a": [["pop", 850, 350]] },
-          { "k": "burst", "text": "Keine Clique.\nNoch nicht.", "x": 140, "y": 1340, "w": 800, "h": 300, "fs": 74, "fill": "#e8b22c", "a": [["pop", 1300, 400]] } ] },
-        { "dur": 3600, "bg": "mint", "els": [
-          { "k": "fig", "who": "leo", "x": 200, "y": 740, "w": 900, "rot": 3, "a": [["up", 0, 600]] },
-          { "k": "balloon", "text": "Yo! Ich bin Leo.\nUnd ich erzähl euch,\nwie alles anfing.", "x": 60, "y": 270, "w": 760, "tail": "br", "fs": 56, "a": [["pop", 500, 400]] },
-          { "k": "burst", "text": "HYPE!", "x": 690, "y": 560, "w": 340, "fs": 90, "fill": "#ff7a5c", "tc": "#fff6e6", "a": [["pop", 1300, 400], ["wiggle", 1700, 600, "ease-in-out", 3]] } ] },
-        { "dur": 2400, "bg": "coral", "els": [
-          { "k": "brand", "x": 90, "y": 380, "w": 900, "fs": 170, "a": [["slam", 0, 500]] },
-          { "k": "box", "text": "Bevor wir uns kannten\nNeue Folge Mi, Fr & So", "x": 200, "y": 1240, "fs": 46, "a": [["up", 500, 500]] } ] }
+        {
+          "dur": 2000,
+          "bg": "coral",
+          "els": [
+            {
+              "k": "box",
+              "text": "POV:",
+              "x": 80,
+              "y": 330,
+              "fs": 64,
+              "a": [
+                [
+                  "pop",
+                  0,
+                  350
+                ]
+              ]
+            },
+            {
+              "k": "big",
+              "text": "Du kennst\nin Brückwil\nniemanden.",
+              "x": 80,
+              "y": 480,
+              "w": 940,
+              "fs": 140,
+              "a": [
+                [
+                  "slam",
+                  200,
+                  450
+                ]
+              ]
+            },
+            {
+              "k": "burst",
+              "text": "?!",
+              "x": 680,
+              "y": 1130,
+              "w": 320,
+              "fs": 140,
+              "fill": "#e8b22c",
+              "a": [
+                [
+                  "pop",
+                  900,
+                  400
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "dur": 750,
+          "bg": "mustard",
+          "speed": -14,
+          "els": [
+            {
+              "k": "scene",
+              "key": "badi",
+              "x": 0,
+              "y": 480,
+              "w": 1080,
+              "h": 880,
+              "a": [
+                [
+                  "zoom",
+                  0,
+                  750,
+                  "linear"
+                ]
+              ]
+            },
+            {
+              "k": "rect",
+              "x": 0,
+              "y": 471,
+              "w": 1080,
+              "h": 898,
+              "style": "border-top:9px solid #1d1d1b;border-bottom:9px solid #1d1d1b"
+            },
+            {
+              "k": "burst",
+              "text": "BADI!",
+              "x": 190,
+              "y": 690,
+              "w": 700,
+              "fs": 150,
+              "fill": "#7fd6b5",
+              "a": [
+                [
+                  "slam",
+                  0,
+                  300
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "dur": 750,
+          "bg": "coral",
+          "speed": 14,
+          "els": [
+            {
+              "k": "scene",
+              "key": "chain",
+              "x": 0,
+              "y": 480,
+              "w": 1080,
+              "h": 880,
+              "a": [
+                [
+                  "zoom",
+                  0,
+                  750,
+                  "linear"
+                ]
+              ]
+            },
+            {
+              "k": "rect",
+              "x": 0,
+              "y": 471,
+              "w": 1080,
+              "h": 898,
+              "style": "border-top:9px solid #1d1d1b;border-bottom:9px solid #1d1d1b"
+            },
+            {
+              "k": "burst",
+              "text": "WERKSTATT!",
+              "x": 90,
+              "y": 700,
+              "w": 900,
+              "fs": 118,
+              "fill": "#ff7a5c",
+              "tc": "#fff6e6",
+              "a": [
+                [
+                  "slam",
+                  0,
+                  300
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "dur": 750,
+          "bg": "mint",
+          "speed": -14,
+          "els": [
+            {
+              "k": "scene",
+              "key": "kiosk",
+              "x": 0,
+              "y": 480,
+              "w": 1080,
+              "h": 880,
+              "a": [
+                [
+                  "zoom",
+                  0,
+                  750,
+                  "linear"
+                ]
+              ]
+            },
+            {
+              "k": "rect",
+              "x": 0,
+              "y": 471,
+              "w": 1080,
+              "h": 898,
+              "style": "border-top:9px solid #1d1d1b;border-bottom:9px solid #1d1d1b"
+            },
+            {
+              "k": "burst",
+              "text": "KIOSK!",
+              "x": 190,
+              "y": 690,
+              "w": 700,
+              "fs": 150,
+              "fill": "#e8b22c",
+              "a": [
+                [
+                  "slam",
+                  0,
+                  300
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "dur": 750,
+          "bg": "petrol",
+          "speed": 14,
+          "els": [
+            {
+              "k": "scene",
+              "key": "market",
+              "x": 0,
+              "y": 480,
+              "w": 1080,
+              "h": 880,
+              "a": [
+                [
+                  "zoom",
+                  0,
+                  750,
+                  "linear"
+                ]
+              ]
+            },
+            {
+              "k": "rect",
+              "x": 0,
+              "y": 471,
+              "w": 1080,
+              "h": 898,
+              "style": "border-top:9px solid #1d1d1b;border-bottom:9px solid #1d1d1b"
+            },
+            {
+              "k": "burst",
+              "text": "MARKT!",
+              "x": 190,
+              "y": 690,
+              "w": 700,
+              "fs": 150,
+              "fill": "#fff6e6",
+              "a": [
+                [
+                  "slam",
+                  0,
+                  300
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "dur": 2500,
+          "bg": "petrol",
+          "els": [
+            {
+              "k": "big",
+              "text": "Vier Leute.",
+              "x": 80,
+              "y": 270,
+              "w": 940,
+              "fs": 140,
+              "a": [
+                [
+                  "slam",
+                  0,
+                  350
+                ]
+              ]
+            },
+            {
+              "k": "head",
+              "who": "leo",
+              "x": 110,
+              "y": 560,
+              "w": 360,
+              "rot": -6,
+              "a": [
+                [
+                  "pop",
+                  250,
+                  350
+                ]
+              ]
+            },
+            {
+              "k": "head",
+              "who": "jonas",
+              "x": 610,
+              "y": 540,
+              "w": 360,
+              "rot": 5,
+              "a": [
+                [
+                  "pop",
+                  450,
+                  350
+                ]
+              ]
+            },
+            {
+              "k": "head",
+              "who": "aysha",
+              "x": 110,
+              "y": 990,
+              "w": 360,
+              "rot": 4,
+              "a": [
+                [
+                  "pop",
+                  650,
+                  350
+                ]
+              ]
+            },
+            {
+              "k": "head",
+              "who": "mila",
+              "x": 610,
+              "y": 970,
+              "w": 360,
+              "rot": -5,
+              "a": [
+                [
+                  "pop",
+                  850,
+                  350
+                ]
+              ]
+            },
+            {
+              "k": "burst",
+              "text": "Keine Clique.\nNoch nicht.",
+              "x": 140,
+              "y": 1340,
+              "w": 800,
+              "h": 300,
+              "fs": 74,
+              "fill": "#e8b22c",
+              "a": [
+                [
+                  "pop",
+                  1300,
+                  400
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "dur": 3600,
+          "bg": "mint",
+          "els": [
+            {
+              "k": "fig",
+              "who": "leo",
+              "x": 200,
+              "y": 740,
+              "w": 900,
+              "rot": 3,
+              "a": [
+                [
+                  "up",
+                  0,
+                  600
+                ]
+              ]
+            },
+            {
+              "k": "balloon",
+              "text": "Yo! Ich bin Leo.\nUnd ich erzähl euch,\nwie alles anfing.",
+              "x": 60,
+              "y": 270,
+              "w": 760,
+              "tail": "br",
+              "fs": 56,
+              "a": [
+                [
+                  "pop",
+                  500,
+                  400
+                ]
+              ]
+            },
+            {
+              "k": "burst",
+              "text": "HYPE!",
+              "x": 690,
+              "y": 560,
+              "w": 340,
+              "fs": 90,
+              "fill": "#ff7a5c",
+              "tc": "#fff6e6",
+              "a": [
+                [
+                  "pop",
+                  1300,
+                  400
+                ],
+                [
+                  "wiggle",
+                  1700,
+                  600,
+                  "ease-in-out",
+                  3
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "dur": 2400,
+          "bg": "coral",
+          "els": [
+            {
+              "k": "brand",
+              "x": 90,
+              "y": 380,
+              "w": 900,
+              "fs": 170,
+              "a": [
+                [
+                  "slam",
+                  0,
+                  500
+                ]
+              ]
+            },
+            {
+              "k": "box",
+              "text": "Bevor wir uns kannten\nNeue Folge Mi, Fr & So",
+              "x": 200,
+              "y": 1240,
+              "fs": 46,
+              "a": [
+                [
+                  "up",
+                  500,
+                  500
+                ]
+              ]
+            }
+          ]
+        }
       ]
     },
     {
-      "id": "02-leo", "date": "2026-12-02T17:30:00+01:00", "format": "carousel",
+      "id": "02-leo",
+      "date": "2026-12-02T17:30:00+01:00",
+      "format": "carousel",
       "alt": "Karussell im Pop-Art-Comicstil: Leo stellt sich vor, seine Follower-Statistik, sein Content-Plan und das Problem: In Brückwil passiert nie was.",
       "caption": "Das bin ich. Leo. 📱\nDamals: 2'000 Follower, 3 Likes pro Woche, null Story.\n\nWischt bis zum Schluss. 👉\nWas hättet ihr in Brückwil gefilmt?",
       "slides": [
-        { "t": "hero", "bg": "mint", "who": "leo", "title": "Ich bin\nLeo.", "sub": "Ja, ich filme das\nhier gerade.", "burst": "POW!", "bfill": "#ff7a5c" },
-        { "t": "stat", "bg": "coral", "who": "leo", "title": "Meine Stats\n(damals)", "rows": [["Follower", "2'000"], ["Ziel", "3'000"], ["Likes letzte Woche", "3"], ["Davon von mir", "1"]], "burst": "PEINLICH!" },
-        { "t": "note", "bg": "sky", "who": "leo", "title": "Mein Content-Plan", "lines": ["Mo: Hund vom Nachbarn (2 Likes)", "Di: Regen in Zeitlupe (0 Likes)", "Mi: Ich esse ein Sandwich (1 Like)", "Do: ???", "Fr: ???"], "stamp": "NIX LOS!" },
-        { "t": "caption", "bg": "petrol", "box": "Das Problem:", "big": "In Brückwil\npassiert NIE\nwas.", "small": "Dachte ich.", "burst": "...bis zu\nDIESEM Sommer", "bfs": 52, "bx": 560, "by": 930, "bw": 460 }
+        {
+          "t": "hero",
+          "bg": "mint",
+          "who": "leo",
+          "title": "Ich bin\nLeo.",
+          "sub": "Ja, ich filme das\nhier gerade.",
+          "burst": "POW!",
+          "bfill": "#ff7a5c"
+        },
+        {
+          "t": "stat",
+          "bg": "coral",
+          "who": "leo",
+          "title": "Meine Stats\n(damals)",
+          "rows": [
+            [
+              "Follower",
+              "2'000"
+            ],
+            [
+              "Ziel",
+              "3'000"
+            ],
+            [
+              "Likes letzte Woche",
+              "3"
+            ],
+            [
+              "Davon von mir",
+              "1"
+            ]
+          ],
+          "burst": "PEINLICH!"
+        },
+        {
+          "t": "note",
+          "bg": "sky",
+          "who": "leo",
+          "title": "Mein Content-Plan",
+          "lines": [
+            "Mo: Hund vom Nachbarn (2 Likes)",
+            "Di: Regen in Zeitlupe (0 Likes)",
+            "Mi: Ich esse ein Sandwich (1 Like)",
+            "Do: ???",
+            "Fr: ???"
+          ],
+          "stamp": "NIX LOS!"
+        },
+        {
+          "t": "caption",
+          "bg": "petrol",
+          "box": "Das Problem:",
+          "big": "In Brückwil\npassiert NIE\nwas.",
+          "small": "Dachte ich.",
+          "burst": "...bis zu\nDIESEM Sommer",
+          "bfs": 52,
+          "bx": 560,
+          "by": 930,
+          "bw": 460
+        }
       ]
     },
     {
-      "id": "03-jonas", "date": "2026-12-04T17:30:00+01:00", "format": "carousel",
+      "id": "03-jonas",
+      "date": "2026-12-04T17:30:00+01:00",
+      "format": "carousel",
       "alt": "Karussell im Pop-Art-Comicstil: Jonas, genannt Turbo, sein Bauplan für ein Velo mit Rasenmäher-Motor und Leos Bewertung.",
       "caption": "KLONK. So klingt Jonas, wenn er arbeitet. 🔧\nEin Velo mit Rasenmäher-Motor. Ohne Bremsen. Absolute Legende.\n\nWas würdet ihr Turbo zum Flicken bringen?",
       "slides": [
-        { "t": "hero", "bg": "coral", "who": "jonas", "title": "Der Typ\nhinter dem\nKiosk.", "sub": "Alle sagen Turbo.", "burst": "KLONK!", "bfill": "#e8b22c" },
-        { "t": "note", "bg": "mustard", "who": "jonas", "title": "Turbo-Velo 3.0", "lines": ["✓ Motor vom alten Rasenmäher", "✓ Hupe (sehr laut)", "✓ Licht aus einer Taschenlampe", "✗ Bremsen"], "stamp": "BREMSEN?\nSPÄTER." },
-        { "t": "stat", "bg": "petrol", "who": "jonas", "title": "Leos Rating:\nJonas", "rows": [["Talent", 10, "#7fd6b5"], ["Chaos", 10, "#ff7a5c"], ["Bremsen", 0, "#e8b22c"], ["Hausaufgaben", 0, "#e8b22c"]], "burst": "LEGENDE!" },
-        { "t": "caption", "bg": "mint", "box": "Leo meint:", "big": "Wenn der\nwas Grosses\nbaut, will ich\ndas filmen.", "fs": 108, "small": "Spoiler: Er hat.", "burst": "WRUMM!", "bfill": "#ff7a5c", "bx": 600, "by": 1000, "bw": 400 }
+        {
+          "t": "hero",
+          "bg": "coral",
+          "who": "jonas",
+          "title": "Der Typ\nhinter dem\nKiosk.",
+          "sub": "Alle sagen Turbo.",
+          "burst": "KLONK!",
+          "bfill": "#e8b22c"
+        },
+        {
+          "t": "note",
+          "bg": "mustard",
+          "who": "jonas",
+          "title": "Turbo-Velo 3.0",
+          "lines": [
+            "✓ Motor vom alten Rasenmäher",
+            "✓ Hupe (sehr laut)",
+            "✓ Licht aus einer Taschenlampe",
+            "✗ Bremsen"
+          ],
+          "stamp": "BREMSEN?\nSPÄTER."
+        },
+        {
+          "t": "stat",
+          "bg": "petrol",
+          "who": "jonas",
+          "title": "Leos Rating:\nJonas",
+          "rows": [
+            [
+              "Talent",
+              10,
+              "#7fd6b5"
+            ],
+            [
+              "Chaos",
+              10,
+              "#ff7a5c"
+            ],
+            [
+              "Bremsen",
+              0,
+              "#e8b22c"
+            ],
+            [
+              "Hausaufgaben",
+              0,
+              "#e8b22c"
+            ]
+          ],
+          "burst": "LEGENDE!"
+        },
+        {
+          "t": "caption",
+          "bg": "mint",
+          "box": "Leo meint:",
+          "big": "Wenn der\nwas Grosses\nbaut, will ich\ndas filmen.",
+          "fs": 108,
+          "small": "Spoiler: Er hat.",
+          "burst": "WRUMM!",
+          "bfill": "#ff7a5c",
+          "bx": 600,
+          "by": 1000,
+          "bw": 400
+        }
       ]
     },
     {
-      "id": "04-aysha", "date": "2026-12-06T11:00:00+01:00", "format": "carousel",
+      "id": "04-aysha",
+      "date": "2026-12-06T11:00:00+01:00",
+      "format": "carousel",
       "alt": "Karussell im Pop-Art-Comicstil: Aysha, die jeden Preis kennt, ein Glace-Preisvergleich Kiosk gegen Laden und ihre Tabelle fürs Sparschwein.",
       "caption": "KA-CHING. 🧮 Aysha weiss, was in Brückwil alles kostet. Auf den Rappen.\nNur wofür sie spart, wusste sie damals selbst nicht.\n\nTeam Kiosk oder Team Laden?",
       "slides": [
-        { "t": "hero", "bg": "mustard", "who": "aysha", "title": "Sie kennt\nJEDEN\nPreis.", "sub": "Aysha. Die Rechnerin.", "burst": "KA-CHING!", "bfill": "#7fd6b5", "bfs": 78 },
-        { "t": "vs", "title": "Glace-Battle", "left": ["Kiosk", "4.50", "Fr. pro Glace"], "right": ["Laden", "1.20", "Fr. pro Glace"], "verdict": "Aysha spart 3.30.\nJedes. Einzelne. Mal.", "who": "aysha" },
-        { "t": "note", "bg": "petrol", "who": "aysha", "title": "Tabelle fürs Sparschwein", "lines": ["Taschengeld ............ +20.00", "Velo geputzt ............ +5.00", "Glace am Kiosk ......... 0.00", "Glace im Laden ......... −1.20", "Im Schwein: 312.40 Fr."], "stamp": "SPARZIEL: ???", "sfs": 52 },
-        { "t": "caption", "bg": "coral", "box": "Ich hab's versucht:", "big": "«Gibst du mir\nein Glace aus?»", "fs": 108, "small": "Aysha: «Nice try.»", "burst": "NOPE!", "bfill": "#fff6e6", "bx": 620, "by": 980, "bw": 380 }
+        {
+          "t": "hero",
+          "bg": "mustard",
+          "who": "aysha",
+          "title": "Sie kennt\nJEDEN\nPreis.",
+          "sub": "Aysha. Die Rechnerin.",
+          "burst": "KA-CHING!",
+          "bfill": "#7fd6b5",
+          "bfs": 78
+        },
+        {
+          "t": "vs",
+          "title": "Glace-Battle",
+          "left": [
+            "Kiosk",
+            "4.50",
+            "Fr. pro Glace"
+          ],
+          "right": [
+            "Laden",
+            "1.20",
+            "Fr. pro Glace"
+          ],
+          "verdict": "Aysha spart 3.30.\nJedes. Einzelne. Mal.",
+          "who": "aysha"
+        },
+        {
+          "t": "note",
+          "bg": "petrol",
+          "who": "aysha",
+          "title": "Tabelle fürs Sparschwein",
+          "lines": [
+            "Taschengeld ............ +20.00",
+            "Velo geputzt ............ +5.00",
+            "Glace am Kiosk ......... 0.00",
+            "Glace im Laden ......... −1.20",
+            "Im Schwein: 312.40 Fr."
+          ],
+          "stamp": "SPARZIEL: ???",
+          "sfs": 52
+        },
+        {
+          "t": "caption",
+          "bg": "coral",
+          "box": "Ich hab's versucht:",
+          "big": "«Gibst du mir\nein Glace aus?»",
+          "fs": 108,
+          "small": "Aysha: «Nice try.»",
+          "burst": "NOPE!",
+          "bfill": "#fff6e6",
+          "bx": 620,
+          "by": 980,
+          "bw": 380
+        }
       ]
     },
     {
-      "id": "05-mila", "date": "2026-12-09T17:30:00+01:00", "format": "carousel",
+      "id": "05-mila",
+      "date": "2026-12-09T17:30:00+01:00",
+      "format": "carousel",
       "alt": "Karussell im Pop-Art-Comicstil: Mila mit Klemmbrett, ihre Liste der Listen, die Geschichte mit den 300 Rüebli und Leos Bewertung.",
       "caption": "ZACK, Liste. 📋 Mila plant alles. Wirklich alles.\nUnd wenn sie nervös wird, bestellt sie zehnmal zu viel.\n\nPlanst du alles oder machst du einfach?",
       "slides": [
-        { "t": "hero", "bg": "petrol", "who": "mila", "title": "Sie hat\neine Liste.", "sub": "Für ALLES.", "burst": "ZACK!", "bfill": "#e8b22c" },
-        { "t": "note", "bg": "pink", "who": "mila", "title": "Liste meiner Listen", "lines": ["1. Einkaufsliste", "2. Packliste (Version 7)", "3. Was schiefgehen kann (lang)", "4. Was ich bestellt hab (zu viel?)", "5. Wer meine Listen liest: …"], "stamp": "LISTE 5:\nLEER" },
-        { "t": "caption", "bg": "mustard", "box": "Einmal auf dem Markt:", "big": "300 Rüebli\nbestellt.\nStatt 30.", "small": "Mila: «Sicher ist sicher.»", "burst": "UPS!", "bfill": "#ff7a5c", "bx": 640, "by": 980, "bw": 360 },
-        { "t": "stat", "bg": "mint", "who": "mila", "title": "Leos Rating:\nMila", "rows": [["Organisation", 10, "#7fd6b5", "11/10"], ["Panik-Bestellungen", 9, "#ff7a5c"], ["Rüebli übrig", "270"]], "burst": "RESPEKT!" }
+        {
+          "t": "hero",
+          "bg": "petrol",
+          "who": "mila",
+          "title": "Sie hat\neine Liste.",
+          "sub": "Für ALLES.",
+          "burst": "ZACK!",
+          "bfill": "#e8b22c"
+        },
+        {
+          "t": "note",
+          "bg": "pink",
+          "who": "mila",
+          "title": "Liste meiner Listen",
+          "lines": [
+            "1. Einkaufsliste",
+            "2. Packliste (Version 7)",
+            "3. Was schiefgehen kann (lang)",
+            "4. Was ich bestellt hab (zu viel?)",
+            "5. Wer meine Listen liest: …"
+          ],
+          "stamp": "LISTE 5:\nLEER"
+        },
+        {
+          "t": "caption",
+          "bg": "mustard",
+          "box": "Einmal auf dem Markt:",
+          "big": "300 Rüebli\nbestellt.\nStatt 30.",
+          "small": "Mila: «Sicher ist sicher.»",
+          "burst": "UPS!",
+          "bfill": "#ff7a5c",
+          "bx": 640,
+          "by": 980,
+          "bw": 360
+        },
+        {
+          "t": "stat",
+          "bg": "mint",
+          "who": "mila",
+          "title": "Leos Rating:\nMila",
+          "rows": [
+            [
+              "Organisation",
+              10,
+              "#7fd6b5",
+              "11/10"
+            ],
+            [
+              "Panik-Bestellungen",
+              9,
+              "#ff7a5c"
+            ],
+            [
+              "Rüebli übrig",
+              "270"
+            ]
+          ],
+          "burst": "RESPEKT!"
+        }
       ]
     },
     {
-      "id": "06-wer-bist-du", "date": "2026-12-11T17:30:00+01:00", "format": "single",
+      "id": "06-wer-bist-du",
+      "date": "2026-12-11T17:30:00+01:00",
+      "format": "single",
       "alt": "Quiz im Pop-Art-Comicstil: Wer bist du in der Clique? Vier Felder mit Leo, Jonas, Aysha und Mila und je einem Satz.",
       "caption": "Ehrlich jetzt. Wer bist du? 👀\n📱 Leo · 🔧 Jonas · 🧮 Aysha · 📋 Mila\n\nSchreibt's in die Kommentare und markiert eure Clique.",
       "slides": [
-        { "t": "grid4", "bg": "coral", "title": "Wer bist du\nin der Clique?", "items": [["leo", "HYPE!", "Ich film das.\nUnd poste es."], ["jonas", "KLONK!", "Ich bau das.\nOhne Bremsen."], ["aysha", "KA-CHING!", "Ich rechne nach.\nZweimal."], ["mila", "ZACK!", "Ich hab\neine Liste."]] }
+        {
+          "t": "grid4",
+          "bg": "coral",
+          "title": "Wer bist du\nin der Clique?",
+          "items": [
+            [
+              "leo",
+              "HYPE!",
+              "Ich film das.\nUnd poste es."
+            ],
+            [
+              "jonas",
+              "KLONK!",
+              "Ich bau das.\nOhne Bremsen."
+            ],
+            [
+              "aysha",
+              "KA-CHING!",
+              "Ich rechne nach.\nZweimal."
+            ],
+            [
+              "mila",
+              "ZACK!",
+              "Ich hab\neine Liste."
+            ]
+          ]
+        }
       ]
     },
     {
-      "id": "07-vreni", "date": "2026-12-13T11:00:00+01:00", "format": "carousel",
+      "id": "07-vreni",
+      "date": "2026-12-13T11:00:00+01:00",
+      "format": "carousel",
       "alt": "Karussell im Pop-Art-Comicstil: Tante Vreni mit Weltreise-Plänen und ihre dreifach abgeschlossene Garage.",
       "caption": "Tante Vreni. Koffer gepackt, Weltreise gebucht, Garage dreifach abgeschlossen. 🧳🔐\nIch wollte da SO rein.\n\nWas glaubt ihr, was drin steht?",
       "slides": [
-        { "t": "hero", "bg": "pink", "who": "vreni", "title": "Und dann\nist da noch\nTante Vreni.", "fs": 110, "burst": "UND\nDANN...", "bfs": 66, "bfill": "#e8b22c" },
-        { "t": "stat", "bg": "mustard", "who": "vreni", "title": "Tante Vreni\nin Zahlen", "rows": [["Koffer gepackt", "✓"], ["Weltreise gebucht", "✓"], ["Garage abgeschlossen", "✓✓✓"], ["Leute, die reindürfen", "0"]], "burst": "STRENG\nGEHEIM!", "bfs": 56 },
-        { "t": "caption", "bg": "night", "scene": "garage", "box": "Ganz Brückwil fragt sich:", "big": "Was ist in\nihrer Garage?", "top": 760, "burst": "?!", "bfs": 150, "bx": 620, "by": 260, "bw": 360, "bfill": "#ff7a5c" }
+        {
+          "t": "hero",
+          "bg": "pink",
+          "who": "vreni",
+          "title": "Und dann\nist da noch\nTante Vreni.",
+          "fs": 110,
+          "burst": "UND\nDANN...",
+          "bfs": 66,
+          "bfill": "#e8b22c"
+        },
+        {
+          "t": "stat",
+          "bg": "mustard",
+          "who": "vreni",
+          "title": "Tante Vreni\nin Zahlen",
+          "rows": [
+            [
+              "Koffer gepackt",
+              "✓"
+            ],
+            [
+              "Weltreise gebucht",
+              "✓"
+            ],
+            [
+              "Garage abgeschlossen",
+              "✓✓✓"
+            ],
+            [
+              "Leute, die reindürfen",
+              "0"
+            ]
+          ],
+          "burst": "STRENG\nGEHEIM!",
+          "bfs": 56
+        },
+        {
+          "t": "caption",
+          "bg": "night",
+          "scene": "garage",
+          "box": "Ganz Brückwil fragt sich:",
+          "big": "Was ist in\nihrer Garage?",
+          "top": 760,
+          "burst": "?!",
+          "bfs": 150,
+          "bx": 620,
+          "by": 260,
+          "bw": 360,
+          "bfill": "#ff7a5c"
+        }
       ]
     },
     {
-      "id": "08-theorie-board", "date": "2026-12-16T17:30:00+01:00", "format": "single",
+      "id": "08-theorie-board",
+      "date": "2026-12-16T17:30:00+01:00",
+      "format": "single",
       "alt": "Pinnwand im Comicstil: Leos Theorie-Board mit roten Fäden. Was ist in Tante Vrenis Garage? Raumschiff, Oldtimer, ein Pferd oder ein Tresor voller Glace.",
       "caption": "Ich hab ein Theorie-Board gebaut. Ja, mit roten Fäden. 🕵️\nWas steht in Tante Vrenis Garage?\n\nEure Theorie in die Kommentare. Die wildeste kriegt meinen Respekt.",
       "slides": [
-        { "t": "board", "title": "Leos Theorie-Board", "center": "???", "items": [["Ein Raumschiff?", 70, 380, -5], ["Ein Oldtimer?", 670, 360, 4], ["Ein Pferd?\n(Wo trinkt es?)", 60, 980, 3], ["Ein Tresor\nvoller Glace?", 680, 990, -4]] }
+        {
+          "t": "board",
+          "title": "Leos Theorie-Board",
+          "center": "???",
+          "items": [
+            [
+              "Ein Raumschiff?",
+              70,
+              380,
+              -5
+            ],
+            [
+              "Ein Oldtimer?",
+              670,
+              360,
+              4
+            ],
+            [
+              "Ein Pferd?\n(Wo trinkt es?)",
+              60,
+              980,
+              3
+            ],
+            [
+              "Ein Tresor\nvoller Glace?",
+              680,
+              990,
+              -4
+            ]
+          ]
+        }
       ]
     },
     {
-      "id": "09-garage-zettel", "date": "2026-12-18T17:30:00+01:00", "format": "single",
+      "id": "09-garage-zettel",
+      "date": "2026-12-18T17:30:00+01:00",
+      "format": "single",
       "alt": "Ein Zettel an der Garagentür im Comicstil: Nicht verkaufen. Fritteuse alt, aber treu. Glasur-Rezept im Handschuhfach. Für den richtigen Sommer. Unterschrieben mit V.",
       "caption": "Das hing an der Garagentür. 😳\n«Fritteuse: alt, aber treu.» FRITTEUSE?!\n\nMein Theorie-Board braucht neue Fäden.",
       "slides": [
-        { "t": "note", "bg": "coral", "title": "Zettel an der Garage", "top": 220, "lines": ["Nicht verkaufen.", "Auch nicht für viel Geld.", "", "Fritteuse: alt, aber treu.", "Glasur-Rezept: im Handschuhfach.", "", "Für den richtigen Sommer. – V."], "stamp": "FRITTEUSE?!", "sx": 470, "sy": 1020, "sfill": "#e8b22c" }
+        {
+          "t": "note",
+          "bg": "coral",
+          "title": "Zettel an der Garage",
+          "top": 220,
+          "lines": [
+            "Nicht verkaufen.",
+            "Auch nicht für viel Geld.",
+            "",
+            "Fritteuse: alt, aber treu.",
+            "Glasur-Rezept: im Handschuhfach.",
+            "",
+            "Für den richtigen Sommer. – V."
+          ],
+          "stamp": "FRITTEUSE?!",
+          "sx": 470,
+          "sy": 1020,
+          "sfill": "#e8b22c"
+        }
       ]
     },
     {
-      "id": "10-die-garage", "date": "2026-12-20T11:00:00+01:00", "format": "reel", "cover": 7000,
+      "id": "10-die-garage",
+      "date": "2026-11-29T11:00:00+01:00",
+      "format": "reel",
+      "cover": 7000,
       "alt": "Animiertes Video im Comicstil: Tante Vrenis Garage bei Nacht, der Zettel an der Tür, dann macht es KLONK und Licht fällt unter dem Tor durch. Was steht da drin? Bald.",
-      "caption": "Wir standen nachts vor dieser Garage. Und dann hat es von drinnen KLONK gemacht. 😳\n\nWas da drin steht? Bald.",
+      "caption": "Wir standen nachts vor dieser Garage. Und dann hat es von drinnen KLONK gemacht. 😳\n\nWas drin stand? Steht im Profil. 👆",
       "shots": [
-        { "dur": 2600, "bg": "night", "els": [
-          { "k": "scene", "key": "garage", "x": 0, "y": 420, "w": 1080, "h": 1000, "a": [["zoom", 0, 2600, "linear"]] },
-          { "k": "rect", "x": 0, "y": 420, "w": 1080, "h": 1000, "style": "background:rgba(10,20,45,.55);border-top:9px solid #1d1d1b;border-bottom:9px solid #1d1d1b" },
-          { "k": "box", "text": "Brückwil. Nachts.", "x": 80, "y": 280, "fs": 52, "a": [["fade", 200, 600]] },
-          { "k": "small", "text": "Tante Vrenis Garage.", "x": 80, "y": 1480, "fs": 60, "a": [["fade", 1000, 600]] } ] },
-        { "dur": 3200, "bg": "mustard", "els": [
-          { "k": "note", "title": "Zettel an der Garage", "lines": ["Nicht verkaufen.", "Fritteuse: alt, aber treu.", "Glasur-Rezept: im Handschuhfach.", "Für den richtigen Sommer. – V."], "x": 70, "y": 420, "w": 940, "fs": 42, "a": [["up", 0, 600]] },
-          { "k": "burst", "text": "FRITTEUSE?!", "x": 300, "y": 1150, "w": 700, "h": 360, "fs": 90, "fill": "#ff7a5c", "tc": "#fff6e6", "a": [["slam", 1500, 400]] } ] },
-        { "dur": 3000, "bg": "night", "rays": false, "els": [
-          { "k": "scene", "key": "garage", "x": 0, "y": 420, "w": 1080, "h": 1000, "a": [["shake", 300, 500]] },
-          { "k": "rect", "x": 0, "y": 420, "w": 1080, "h": 1000, "style": "background:rgba(10,20,45,.55);border-top:9px solid #1d1d1b;border-bottom:9px solid #1d1d1b" },
-          { "k": "rect", "x": 230, "y": 1300, "w": 620, "h": 70, "style": "background:radial-gradient(ellipse at 50% 0,#ffe9a8,rgba(255,200,80,0) 70%)", "a": [["fade", 300, 300]] },
-          { "k": "burst", "text": "KLONK!", "x": 250, "y": 560, "w": 600, "fs": 130, "fill": "#e8b22c", "a": [["slam", 300, 350]] },
-          { "k": "big", "text": "Was steht\nda drin?", "x": 80, "y": 1470, "w": 940, "fs": 110, "a": [["up", 1100, 500]] } ] },
-        { "dur": 2200, "bg": "coral", "els": [
-          { "k": "big", "text": "Bald.", "x": 0, "y": 640, "w": 1080, "fs": 260, "align": "center", "a": [["slam", 0, 450]] },
-          { "k": "box", "text": "Die Donut Clique · Bevor wir uns kannten", "x": 120, "y": 1100, "fs": 40, "a": [["up", 500, 500]] } ] }
+        {
+          "dur": 2600,
+          "bg": "night",
+          "els": [
+            {
+              "k": "scene",
+              "key": "garage",
+              "x": 0,
+              "y": 420,
+              "w": 1080,
+              "h": 1000,
+              "a": [
+                [
+                  "zoom",
+                  0,
+                  2600,
+                  "linear"
+                ]
+              ]
+            },
+            {
+              "k": "rect",
+              "x": 0,
+              "y": 420,
+              "w": 1080,
+              "h": 1000,
+              "style": "background:rgba(10,20,45,.55);border-top:9px solid #1d1d1b;border-bottom:9px solid #1d1d1b"
+            },
+            {
+              "k": "box",
+              "text": "Brückwil. Nachts.",
+              "x": 80,
+              "y": 280,
+              "fs": 52,
+              "a": [
+                [
+                  "fade",
+                  200,
+                  600
+                ]
+              ]
+            },
+            {
+              "k": "small",
+              "text": "Tante Vrenis Garage.",
+              "x": 80,
+              "y": 1480,
+              "fs": 60,
+              "a": [
+                [
+                  "fade",
+                  1000,
+                  600
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "dur": 3200,
+          "bg": "mustard",
+          "els": [
+            {
+              "k": "note",
+              "title": "Zettel an der Garage",
+              "lines": [
+                "Nicht verkaufen.",
+                "Fritteuse: alt, aber treu.",
+                "Glasur-Rezept: im Handschuhfach.",
+                "Für den richtigen Sommer. – V."
+              ],
+              "x": 70,
+              "y": 420,
+              "w": 940,
+              "fs": 42,
+              "a": [
+                [
+                  "up",
+                  0,
+                  600
+                ]
+              ]
+            },
+            {
+              "k": "burst",
+              "text": "FRITTEUSE?!",
+              "x": 300,
+              "y": 1150,
+              "w": 700,
+              "h": 360,
+              "fs": 90,
+              "fill": "#ff7a5c",
+              "tc": "#fff6e6",
+              "a": [
+                [
+                  "slam",
+                  1500,
+                  400
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "dur": 3000,
+          "bg": "night",
+          "rays": false,
+          "els": [
+            {
+              "k": "scene",
+              "key": "garage",
+              "x": 0,
+              "y": 420,
+              "w": 1080,
+              "h": 1000,
+              "a": [
+                [
+                  "shake",
+                  300,
+                  500
+                ]
+              ]
+            },
+            {
+              "k": "rect",
+              "x": 0,
+              "y": 420,
+              "w": 1080,
+              "h": 1000,
+              "style": "background:rgba(10,20,45,.55);border-top:9px solid #1d1d1b;border-bottom:9px solid #1d1d1b"
+            },
+            {
+              "k": "rect",
+              "x": 230,
+              "y": 1300,
+              "w": 620,
+              "h": 70,
+              "style": "background:radial-gradient(ellipse at 50% 0,#ffe9a8,rgba(255,200,80,0) 70%)",
+              "a": [
+                [
+                  "fade",
+                  300,
+                  300
+                ]
+              ]
+            },
+            {
+              "k": "burst",
+              "text": "KLONK!",
+              "x": 250,
+              "y": 560,
+              "w": 600,
+              "fs": 130,
+              "fill": "#e8b22c",
+              "a": [
+                [
+                  "slam",
+                  300,
+                  350
+                ]
+              ]
+            },
+            {
+              "k": "big",
+              "text": "Was steht\nda drin?",
+              "x": 80,
+              "y": 1470,
+              "w": 940,
+              "fs": 110,
+              "a": [
+                [
+                  "up",
+                  1100,
+                  500
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "dur": 2200,
+          "bg": "coral",
+          "els": [
+            {
+              "k": "big",
+              "text": "Bald.",
+              "x": 0,
+              "y": 640,
+              "w": 1080,
+              "fs": 260,
+              "align": "center",
+              "a": [
+                [
+                  "slam",
+                  0,
+                  450
+                ]
+              ]
+            },
+            {
+              "k": "box",
+              "text": "Die Donut Clique · Bevor wir uns kannten",
+              "x": 120,
+              "y": 1100,
+              "fs": 40,
+              "a": [
+                [
+                  "up",
+                  500,
+                  500
+                ]
+              ]
+            }
+          ]
+        }
       ]
     },
     {
-      "id": "11-wunschzettel", "date": "2026-12-23T17:30:00+01:00", "format": "carousel",
+      "id": "11-wunschzettel",
+      "date": "2026-12-23T17:30:00+01:00",
+      "format": "carousel",
       "alt": "Karussell im Pop-Art-Comicstil: Die Wunschzettel von Leo, Jonas, Aysha und Mila aus der Zeit, bevor sie sich kannten. Keiner wünschte sich Freunde, bekommen haben sie sie trotzdem.",
-      "caption": "Unsere Wunschzettel von damals. 🎁\nKeiner von uns hat sich Freunde gewünscht. Bekommen haben wir sie trotzdem.\n\nSchöne Festtage! 🍩🎄",
+      "caption": "Unsere Wunschzettel von damals. 🎁\nKeiner von uns hat sich Freunde gewünscht. Bekommen haben wir sie trotzdem.\n\nWas stand auf eurem Wunschzettel? 🍩🎄",
       "slides": [
-        { "t": "group", "bg": "coral", "title": "Unsere\nWunschzettel", "sub": "(damals, als wir uns noch nicht kannten)", "heads": ["leo", "jonas", "aysha", "mila"], "burst": "HO HO HO!" },
-        { "t": "grid4", "bg": "petrol", "title": "Wir wünschten uns:", "ifs": 36, "items": [["leo", "LEO", "3'000 Follower.\nOder 3'001."], ["jonas", "JONAS", "Ein Schweissgerät.\nEin grosses."], ["aysha", "AYSHA", "Billigeres Glace\nam Kiosk."], ["mila", "MILA", "Eine Liste\nfür 2027."]] },
-        { "t": "caption", "bg": "mustard", "big": "Keiner hat\nsich Freunde\ngewünscht.", "small": "Bekommen haben wir\nsie trotzdem.", "burst": "AWW!", "bfill": "#ff7a5c", "bx": 640, "by": 1000, "bw": 360 }
+        {
+          "t": "group",
+          "bg": "coral",
+          "title": "Unsere\nWunschzettel",
+          "sub": "(damals, als wir uns noch nicht kannten)",
+          "heads": [
+            "leo",
+            "jonas",
+            "aysha",
+            "mila"
+          ],
+          "burst": "HO HO HO!"
+        },
+        {
+          "t": "grid4",
+          "bg": "petrol",
+          "title": "Wir wünschten uns:",
+          "ifs": 36,
+          "items": [
+            [
+              "leo",
+              "LEO",
+              "3'000 Follower.\nOder 3'001."
+            ],
+            [
+              "jonas",
+              "JONAS",
+              "Ein Schweissgerät.\nEin grosses."
+            ],
+            [
+              "aysha",
+              "AYSHA",
+              "Billigeres Glace\nam Kiosk."
+            ],
+            [
+              "mila",
+              "MILA",
+              "Eine Liste\nfür 2027."
+            ]
+          ]
+        },
+        {
+          "t": "caption",
+          "bg": "mustard",
+          "big": "Keiner hat\nsich Freunde\ngewünscht.",
+          "small": "Bekommen haben wir\nsie trotzdem.",
+          "burst": "AWW!",
+          "bfill": "#ff7a5c",
+          "bx": 640,
+          "by": 1000,
+          "bw": 360
+        }
       ]
     },
     {
-      "id": "12-festtage", "date": "2026-12-25T17:30:00+01:00", "format": "single",
+      "id": "12-festtage",
+      "date": "2026-12-24T17:30:00+01:00",
+      "format": "single",
       "alt": "Festtagskarte im Pop-Art-Comicstil: Frohe Festtage aus Brückwil, mit Konfetti und den Köpfen von Leo, Jonas, Aysha und Mila.",
       "caption": "Frohe Festtage von der ganzen Clique! 🎄🍩\nTante Vreni grüsst von irgendwo auf der Welt. Wahrscheinlich kauft sie gerade etwas, das nicht in den Koffer passt.",
       "slides": [
-        { "t": "group", "bg": "mint", "title": "Frohe\nFesttage!", "sub": "aus Brückwil. Von Leo, Jonas, Aysha, Mila.\nUnd Tante Vreni (von irgendwo).", "heads": ["leo", "jonas", "aysha", "mila"], "burst": "WOW!", "bfill": "#e8b22c" }
+        {
+          "t": "group",
+          "bg": "mint",
+          "title": "Frohe\nFesttage!",
+          "sub": "aus Brückwil. Von Leo, Jonas, Aysha, Mila.\nUnd Tante Vreni (von irgendwo).",
+          "heads": [
+            "leo",
+            "jonas",
+            "aysha",
+            "mila"
+          ],
+          "burst": "WOW!",
+          "bfill": "#e8b22c"
+        }
       ]
     },
     {
-      "id": "13-pov-ankunft", "date": "2026-12-27T11:00:00+01:00", "format": "carousel",
+      "id": "13-pov-ankunft",
+      "date": "2026-12-27T11:00:00+01:00",
+      "format": "carousel",
       "alt": "Karussell im Comicstil aus der Ich-Perspektive: Ein Zug hält in Brückwil, dein Koffer steht auf dem Perron, Tante Vreni winkt dir zu. Du kennst hier niemanden. Noch nicht.",
       "caption": "Und dann kam der Sommer. ☀️ Und mit ihm: DU.\nSechs Wochen bei Tante Vreni, null Leute gekannt.\n\nAb hier wird's gut. Versprochen.",
       "tags": "#POV",
       "slides": [
-        { "t": "pov", "scene": "arrive", "who": "vreni", "fx": 300, "fw": 760, "pov": "POV: Dein Zug hält in Brückwil.", "say": "Da bist du ja!\nWillkommen in Brückwil!", "sw": 620, "burst": "HALLO!", "bx": 740, "by": 360, "bw": 300 },
-        { "t": "caption", "bg": "sky", "box": "Sechs Wochen Sommerferien.", "big": "Du kennst\nhier\nniemanden.", "fs": 130 },
-        { "t": "caption", "bg": "coral", "big": "Noch\nnicht.", "fs": 220, "top": 380, "burst": "!", "bfs": 200, "bx": 640, "by": 820, "bw": 330, "bfill": "#e8b22c" }
+        {
+          "t": "pov",
+          "scene": "arrive",
+          "who": "vreni",
+          "fx": 300,
+          "fw": 760,
+          "pov": "POV: Dein Zug hält in Brückwil.",
+          "say": "Da bist du ja!\nWillkommen in Brückwil!",
+          "sw": 620,
+          "burst": "HALLO!",
+          "bx": 740,
+          "by": 360,
+          "bw": 300
+        },
+        {
+          "t": "caption",
+          "bg": "sky",
+          "box": "Sechs Wochen Sommerferien.",
+          "big": "Du kennst\nhier\nniemanden.",
+          "fs": 130
+        },
+        {
+          "t": "caption",
+          "bg": "coral",
+          "big": "Noch\nnicht.",
+          "fs": 220,
+          "top": 380,
+          "burst": "!",
+          "bfs": 200,
+          "bx": 640,
+          "by": 820,
+          "bw": 330,
+          "bfill": "#e8b22c"
+        }
       ]
     },
     {
-      "id": "14-pov-badi", "date": "2026-12-30T17:30:00+01:00", "format": "reel", "cover": 7500,
+      "id": "14-pov-badi",
+      "date": "2026-12-02T17:30:00+01:00",
+      "format": "reel",
+      "cover": 7500,
       "alt": "Animiertes Video im Comicstil aus der Ich-Perspektive: Du springst in der Badi vom Turm, PLATSCH. Leo filmt, sein Follower-Zähler springt von 2'000 auf 2'400. Rekord. Guten Rutsch.",
-      "caption": "POV: Du springst vom Turm und ich hab's gefilmt. 📱💦\n400 neue Follower an einem Tag. Mein Rekord.\n\nGuten Rutsch! 🎆",
+      "caption": "POV: Du springst vom Turm und ich hab's gefilmt. 📱💦\n400 neue Follower an einem Tag. Mein Rekord.\n\nWie es weiterging: oben im Profil. 👆",
       "tags": "#POV",
       "shots": [
-        { "dur": 2600, "bg": "sky", "rays": false, "els": [
-          { "k": "scene", "key": "badi", "x": 0, "y": 420, "w": 1080, "h": 1080, "a": [[[{ "transform": "translateY(-520px) scale(1.35)" }, { "transform": "translateY(0) scale(1)" }], 400, 1300, "cubic-bezier(.55,0,.9,.45)"]] },
-          { "k": "rect", "x": 0, "y": 412, "w": 1080, "h": 1096, "style": "border-top:9px solid #1d1d1b;border-bottom:9px solid #1d1d1b" },
-          { "k": "box", "text": "POV: Du springst vom Turm.", "x": 70, "y": 270, "fs": 50, "bg": "#ff7a5c", "c": "#fff6e6", "a": [["pop", 0, 350]] },
-          { "k": "rect", "x": 0, "y": 0, "w": 1080, "h": 1920, "style": "background:#fff", "a": [["flash", 1700, 500]] },
-          { "k": "burst", "text": "PLATSCH!", "x": 140, "y": 760, "w": 800, "fs": 140, "fill": "#7fd6b5", "a": [["slam", 1700, 400]] } ] },
-        { "dur": 3200, "bg": "mint", "els": [
-          { "k": "fig", "who": "leo", "x": 180, "y": 740, "w": 900, "rot": -3, "a": [["left", 0, 500]] },
-          { "k": "balloon", "text": "YO! Das war\nCONTENT!\nDarf ich das posten?", "x": 60, "y": 270, "w": 740, "tail": "br", "fs": 58, "a": [["pop", 500, 400]] },
-          { "k": "burst", "text": "ABSOLUTE\nCINEMA!", "x": 600, "y": 1260, "w": 440, "fs": 60, "fill": "#e8b22c", "a": [["pop", 1500, 400]] } ] },
-        { "dur": 3400, "bg": "coral", "els": [
-          { "k": "box", "text": "Leos Follower:", "x": 80, "y": 380, "fs": 52, "a": [["pop", 0, 300]] },
-          { "k": "big", "text": "2'000", "x": 80, "y": 520, "w": 940, "fs": 260, "a": [["count", 2000, 2400, 300, 1800]] },
-          { "k": "burst", "text": "REKORD!", "x": 520, "y": 900, "w": 500, "fs": 100, "fill": "#e8b22c", "a": [["slam", 2100, 400]] },
-          { "k": "small", "text": "+400 an einem Tag.", "x": 80, "y": 1340, "fs": 64, "a": [["up", 2400, 500]] } ] },
-        { "dur": 2600, "bg": "petrol", "els": [
-          { "k": "big", "text": "Leo hat\nseine Story\ngefunden.", "x": 80, "y": 420, "w": 940, "fs": 130, "a": [["slam", 0, 450]] },
-          { "k": "burst", "text": "Guten\nRutsch!", "x": 280, "y": 1100, "w": 560, "h": 360, "fs": 90, "fill": "#e8b22c", "a": [["pop", 900, 400]] } ] }
+        {
+          "dur": 2600,
+          "bg": "sky",
+          "rays": false,
+          "els": [
+            {
+              "k": "scene",
+              "key": "badi",
+              "x": 0,
+              "y": 420,
+              "w": 1080,
+              "h": 1080,
+              "a": [
+                [
+                  [
+                    {
+                      "transform": "translateY(-520px) scale(1.35)"
+                    },
+                    {
+                      "transform": "translateY(0) scale(1)"
+                    }
+                  ],
+                  400,
+                  1300,
+                  "cubic-bezier(.55,0,.9,.45)"
+                ]
+              ]
+            },
+            {
+              "k": "rect",
+              "x": 0,
+              "y": 412,
+              "w": 1080,
+              "h": 1096,
+              "style": "border-top:9px solid #1d1d1b;border-bottom:9px solid #1d1d1b"
+            },
+            {
+              "k": "box",
+              "text": "POV: Du springst vom Turm.",
+              "x": 70,
+              "y": 270,
+              "fs": 50,
+              "bg": "#ff7a5c",
+              "c": "#fff6e6",
+              "a": [
+                [
+                  "pop",
+                  0,
+                  350
+                ]
+              ]
+            },
+            {
+              "k": "rect",
+              "x": 0,
+              "y": 0,
+              "w": 1080,
+              "h": 1920,
+              "style": "background:#fff",
+              "a": [
+                [
+                  "flash",
+                  1700,
+                  500
+                ]
+              ]
+            },
+            {
+              "k": "burst",
+              "text": "PLATSCH!",
+              "x": 140,
+              "y": 760,
+              "w": 800,
+              "fs": 140,
+              "fill": "#7fd6b5",
+              "a": [
+                [
+                  "slam",
+                  1700,
+                  400
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "dur": 3200,
+          "bg": "mint",
+          "els": [
+            {
+              "k": "fig",
+              "who": "leo",
+              "x": 180,
+              "y": 740,
+              "w": 900,
+              "rot": -3,
+              "a": [
+                [
+                  "left",
+                  0,
+                  500
+                ]
+              ]
+            },
+            {
+              "k": "balloon",
+              "text": "YO! Das war\nCONTENT!\nDarf ich das posten?",
+              "x": 60,
+              "y": 270,
+              "w": 740,
+              "tail": "br",
+              "fs": 58,
+              "a": [
+                [
+                  "pop",
+                  500,
+                  400
+                ]
+              ]
+            },
+            {
+              "k": "burst",
+              "text": "ABSOLUTE\nCINEMA!",
+              "x": 600,
+              "y": 1260,
+              "w": 440,
+              "fs": 60,
+              "fill": "#e8b22c",
+              "a": [
+                [
+                  "pop",
+                  1500,
+                  400
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "dur": 3400,
+          "bg": "coral",
+          "els": [
+            {
+              "k": "box",
+              "text": "Leos Follower:",
+              "x": 80,
+              "y": 380,
+              "fs": 52,
+              "a": [
+                [
+                  "pop",
+                  0,
+                  300
+                ]
+              ]
+            },
+            {
+              "k": "big",
+              "text": "2'000",
+              "x": 80,
+              "y": 520,
+              "w": 940,
+              "fs": 260,
+              "a": [
+                [
+                  "count",
+                  2000,
+                  2400,
+                  300,
+                  1800
+                ]
+              ]
+            },
+            {
+              "k": "burst",
+              "text": "REKORD!",
+              "x": 520,
+              "y": 900,
+              "w": 500,
+              "fs": 100,
+              "fill": "#e8b22c",
+              "a": [
+                [
+                  "slam",
+                  2100,
+                  400
+                ]
+              ]
+            },
+            {
+              "k": "small",
+              "text": "+400 an einem Tag.",
+              "x": 80,
+              "y": 1340,
+              "fs": 64,
+              "a": [
+                [
+                  "up",
+                  2400,
+                  500
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "dur": 2600,
+          "bg": "petrol",
+          "els": [
+            {
+              "k": "big",
+              "text": "Leo hat\nseine Story\ngefunden.",
+              "x": 80,
+              "y": 420,
+              "w": 940,
+              "fs": 130,
+              "a": [
+                [
+                  "slam",
+                  0,
+                  450
+                ]
+              ]
+            },
+            {
+              "k": "burst",
+              "text": "Guten\nRutsch!",
+              "x": 280,
+              "y": 1100,
+              "w": 560,
+              "h": 360,
+              "fs": 90,
+              "fill": "#e8b22c",
+              "a": [
+                [
+                  "pop",
+                  900,
+                  400
+                ]
+              ]
+            }
+          ]
+        }
       ]
     },
     {
-      "id": "15-pov-werkstatt", "date": "2027-01-01T17:30:00+01:00", "format": "carousel",
+      "id": "15-pov-werkstatt",
+      "date": "2027-01-01T17:30:00+01:00",
+      "format": "carousel",
       "alt": "Karussell im Comicstil aus der Ich-Perspektive: Vor der Werkstatt springt deine Velokette raus. Jonas schaut dich an: Kette? Easy. Kostet dich ein Glace. Zwei Minuten später läuft es.",
       "caption": "POV: Velokette raus, mitten in Brückwil. Zum Glück ist da diese Werkstatt. 🔧\nTurbo flickt's in zwei Minuten. Preis: ein Glace.\n\nKönnt ihr eine Kette flicken? Ehrlich.",
       "tags": "#POV",
       "slides": [
-        { "t": "pov", "scene": "chain", "who": "jonas", "fx": 300, "fw": 760, "pov": "POV: Deine Velokette springt raus.", "say": "Kette? Easy.\nKostet dich ein Glace.", "sw": 620, "burst": "KLONK!", "bx": 720, "by": 380, "bw": 320 },
-        { "t": "caption", "bg": "mustard", "box": "Zwei Minuten später:", "big": "Läuft.", "fs": 230, "small": "Jonas hatte jemanden\nzum Mitbauen.", "burst": "ZACK!", "bfill": "#ff7a5c", "bx": 620, "by": 1000, "bw": 380 }
+        {
+          "t": "pov",
+          "scene": "chain",
+          "who": "jonas",
+          "fx": 300,
+          "fw": 760,
+          "pov": "POV: Deine Velokette springt raus.",
+          "say": "Kette? Easy.\nKostet dich ein Glace.",
+          "sw": 620,
+          "burst": "KLONK!",
+          "bx": 720,
+          "by": 380,
+          "bw": 320
+        },
+        {
+          "t": "caption",
+          "bg": "mustard",
+          "box": "Zwei Minuten später:",
+          "big": "Läuft.",
+          "fs": 230,
+          "small": "Jonas hatte jemanden\nzum Mitbauen.",
+          "burst": "ZACK!",
+          "bfill": "#ff7a5c",
+          "bx": 620,
+          "by": 1000,
+          "bw": 380
+        }
       ]
     },
     {
-      "id": "16-pov-kiosk", "date": "2027-01-03T11:00:00+01:00", "format": "carousel",
+      "id": "16-pov-kiosk",
+      "date": "2027-01-03T11:00:00+01:00",
+      "format": "carousel",
       "alt": "Karussell im Comicstil aus der Ich-Perspektive: Am Kiosk schaut Aysha dich an: 4.50? Im Laden kostet es 1.20. Du sparst 3.30.",
       "caption": "POV: Du willst nur ein Glace. Du bekommst eine Finanzberatung. 🍦🧮\nWillkommen bei Aysha.\n\nKiosk oder Laden?",
       "tags": "#POV",
       "slides": [
-        { "t": "pov", "scene": "kiosk", "who": "aysha", "fx": 300, "fw": 760, "pov": "POV: Du willst ein Glace am Kiosk.", "say": "4.50? Im Laden\nkostet's 1.20.\nIch bin Aysha.", "sw": 600, "burst": "STOPP!", "bx": 730, "by": 400, "bw": 300 },
-        { "t": "caption", "bg": "petrol", "big": "Du hast\n3.30\ngespart.", "fs": 150, "small": "Aysha hatte jemanden\nzum Rechnen.", "burst": "KA-CHING!", "bfill": "#e8b22c", "bfs": 70, "bx": 580, "by": 1000, "bw": 440 }
+        {
+          "t": "pov",
+          "scene": "kiosk",
+          "who": "aysha",
+          "fx": 300,
+          "fw": 760,
+          "pov": "POV: Du willst ein Glace am Kiosk.",
+          "say": "4.50? Im Laden\nkostet's 1.20.\nIch bin Aysha.",
+          "sw": 600,
+          "burst": "STOPP!",
+          "bx": 730,
+          "by": 400,
+          "bw": 300
+        },
+        {
+          "t": "caption",
+          "bg": "petrol",
+          "big": "Du hast\n3.30\ngespart.",
+          "fs": 150,
+          "small": "Aysha hatte jemanden\nzum Rechnen.",
+          "burst": "KA-CHING!",
+          "bfill": "#e8b22c",
+          "bfs": 70,
+          "bx": 580,
+          "by": 1000,
+          "bw": 440
+        }
       ]
     },
     {
-      "id": "17-pov-markt", "date": "2027-01-06T17:30:00+01:00", "format": "carousel",
+      "id": "17-pov-markt",
+      "date": "2027-01-06T17:30:00+01:00",
+      "format": "carousel",
       "alt": "Karussell im Comicstil aus der Ich-Perspektive: Auf dem Wochenmarkt rennt Mila mit Klemmbrett fast in dich hinein. Auf ihrer Liste der Leute, die ihre Listen lesen, steht endlich ein Name: du.",
       "caption": "POV: Mila mit Klemmbrett, Vollsprint, direkt in dich rein. 📋💨\nUnd auf ihrer Liste steht endlich ein Name. Deiner.\n\nVier von vier. Fehlt nur noch etwas. 👀",
       "tags": "#POV",
       "slides": [
-        { "t": "pov", "scene": "market", "who": "mila", "fx": 300, "fw": 760, "pov": "POV: Samstag, Wochenmarkt.", "say": "Sorry, sorry!\nIch bin Mila.\nBrauchst du Hilfe?", "sw": 600, "burst": "HUCH!", "bx": 740, "by": 400, "bw": 300 },
-        { "t": "note", "bg": "mint", "who": "mila", "title": "Liste 5", "lines": ["Leute, die meine Listen lesen:", "", "1. DU"], "stamp": "ENDLICH!", "sfill": "#e8b22c" },
-        { "t": "caption", "bg": "coral", "big": "Vier von\nvier.", "fs": 170, "small": "Fehlt nur noch etwas.", "burst": "...?", "bfs": 120, "bx": 640, "by": 980, "bw": 340, "bfill": "#fff6e6" }
+        {
+          "t": "pov",
+          "scene": "market",
+          "who": "mila",
+          "fx": 300,
+          "fw": 760,
+          "pov": "POV: Samstag, Wochenmarkt.",
+          "say": "Sorry, sorry!\nIch bin Mila.\nBrauchst du Hilfe?",
+          "sw": 600,
+          "burst": "HUCH!",
+          "bx": 740,
+          "by": 400,
+          "bw": 300
+        },
+        {
+          "t": "note",
+          "bg": "mint",
+          "who": "mila",
+          "title": "Liste 5",
+          "lines": [
+            "Leute, die meine Listen lesen:",
+            "",
+            "1. DU"
+          ],
+          "stamp": "ENDLICH!",
+          "sfill": "#e8b22c"
+        },
+        {
+          "t": "caption",
+          "bg": "coral",
+          "big": "Vier von\nvier.",
+          "fs": 170,
+          "small": "Fehlt nur noch etwas.",
+          "burst": "...?",
+          "bfs": 120,
+          "bx": 640,
+          "by": 980,
+          "bw": 340,
+          "bfill": "#fff6e6"
+        }
       ]
     },
     {
-      "id": "18-finale", "date": "2027-01-08T17:30:00+01:00", "format": "reel", "cover": 9500,
+      "id": "18-finale",
+      "date": "2026-12-06T11:00:00+01:00",
+      "format": "reel",
+      "cover": 9500,
       "alt": "Animiertes Video im Comicstil: Gruppenchat, Notfall, Garage, jetzt. Die vier antworten. Dann BAM: ein alter Donut-Truck. Leo, Jonas, Aysha und Mila teilen sich die Aufgaben. Clique for life. Die Donut Clique.",
       "caption": "Notfall. Garage. Jetzt. 🚨\nUnd dann stand da dieser Truck. 🍩🚚\n\nSo wurde aus vier Fremden die Donut Clique. Wie der Sommer weitergeht? Das spielst du selbst.",
       "shots": [
-        { "dur": 3800, "bg": "cream", "rays": false, "els": [
-          { "k": "box", "text": "Neue Gruppe: Donut Clique", "x": 230, "y": 250, "fs": 38, "bg": "#1d1d1b", "c": "#fff6e6", "a": [["fade", 0, 300]] },
-          { "k": "msg", "who": "me", "text": "Notfall. Garage. Jetzt.", "x": 260, "y": 400, "w": 760, "a": [["pop", 200, 350], ["shake", 600, 400]] },
-          { "k": "msg", "who": "leo", "text": "Bro. WAS?!", "x": 60, "y": 620, "w": 900, "a": [["right", 1000, 400]] },
-          { "k": "msg", "who": "aysha", "text": "Ich komme.", "x": 60, "y": 840, "w": 900, "a": [["right", 1600, 400]] },
-          { "k": "msg", "who": "mila", "text": "Ich bring eine Liste.", "x": 60, "y": 1060, "w": 900, "a": [["right", 2200, 400]] },
-          { "k": "msg", "who": "jonas", "text": "Bin schon da.", "x": 60, "y": 1280, "w": 900, "a": [["right", 2800, 400]] } ] },
-        { "dur": 2600, "bg": "night", "rays": false, "els": [
-          { "k": "scene", "key": "garage", "x": 0, "y": 420, "w": 1080, "h": 1000, "a": [["zoom", 0, 2600, "linear"], ["shake", 1400, 500]] },
-          { "k": "rect", "x": 0, "y": 420, "w": 1080, "h": 1000, "style": "border-top:9px solid #1d1d1b;border-bottom:9px solid #1d1d1b" },
-          { "k": "burst", "text": "KNAAARRR...", "x": 180, "y": 1440, "w": 720, "h": 300, "fs": 76, "fill": "#e8b22c", "a": [["pop", 1300, 400]] } ] },
-        { "dur": 3000, "bg": "mustard", "els": [
-          { "k": "rect", "x": 0, "y": 0, "w": 1080, "h": 1920, "style": "background:#fff", "z": 30, "a": [["flash", 0, 500]] },
-          { "k": "scene", "key": "k1", "x": 0, "y": 520, "w": 1080, "h": 880, "a": [["slam", 0, 500]] },
-          { "k": "rect", "x": 0, "y": 511, "w": 1080, "h": 898, "style": "border-top:9px solid #1d1d1b;border-bottom:9px solid #1d1d1b" },
-          { "k": "burst", "text": "BAM!", "x": 60, "y": 250, "w": 520, "fs": 160, "fill": "#ff7a5c", "tc": "#fff6e6", "a": [["slam", 200, 400]] },
-          { "k": "burst", "text": "EIN FOOD-\nTRUCK?!", "x": 400, "y": 1350, "w": 620, "h": 360, "fs": 80, "fill": "#fff6e6", "a": [["pop", 900, 400]] } ] },
-        { "dur": 3600, "bg": "petrol", "els": [
-          { "k": "head", "who": "leo", "x": 70, "y": 300, "w": 230, "rot": -6, "a": [["pop", 0, 350]] },
-          { "k": "small", "text": "Ich mach den Hype.", "x": 330, "y": 370, "fs": 62, "a": [["left", 150, 400]] },
-          { "k": "head", "who": "jonas", "x": 70, "y": 590, "w": 230, "rot": 5, "a": [["pop", 600, 350]] },
-          { "k": "small", "text": "Die Fritteuse\nkrieg ich hin.", "x": 330, "y": 620, "fs": 62, "a": [["left", 750, 400]] },
-          { "k": "head", "who": "aysha", "x": 70, "y": 880, "w": 230, "rot": -4, "a": [["pop", 1200, 350]] },
-          { "k": "small", "text": "Ich mach die Finanzen.", "x": 330, "y": 950, "fs": 62, "a": [["left", 1350, 400]] },
-          { "k": "head", "who": "mila", "x": 70, "y": 1170, "w": 230, "rot": 6, "a": [["pop", 1800, 350]] },
-          { "k": "small", "text": "Ich mach die Liste.", "x": 330, "y": 1240, "fs": 62, "a": [["left", 1950, 400]] } ] },
-        { "dur": 2600, "bg": "coral", "els": [
-          { "k": "big", "text": "Clique\nfor life.", "x": 0, "y": 600, "w": 1080, "fs": 200, "align": "center", "a": [["slam", 0, 450]] },
-          { "k": "head", "who": "leo", "x": 760, "y": 1150, "w": 220, "rot": 8, "a": [["pop", 700, 350]] } ] },
-        { "dur": 2800, "bg": "mustard", "els": [
-          { "k": "brand", "x": 90, "y": 380, "w": 900, "fs": 170, "a": [["slam", 0, 500]] },
-          { "k": "box", "text": "Und so fing alles an.", "x": 250, "y": 1240, "fs": 52, "a": [["up", 600, 500]] } ] }
+        {
+          "dur": 3800,
+          "bg": "cream",
+          "rays": false,
+          "els": [
+            {
+              "k": "box",
+              "text": "Neue Gruppe: Donut Clique",
+              "x": 230,
+              "y": 250,
+              "fs": 38,
+              "bg": "#1d1d1b",
+              "c": "#fff6e6",
+              "a": [
+                [
+                  "fade",
+                  0,
+                  300
+                ]
+              ]
+            },
+            {
+              "k": "msg",
+              "who": "me",
+              "text": "Notfall. Garage. Jetzt.",
+              "x": 260,
+              "y": 400,
+              "w": 760,
+              "a": [
+                [
+                  "pop",
+                  200,
+                  350
+                ],
+                [
+                  "shake",
+                  600,
+                  400
+                ]
+              ]
+            },
+            {
+              "k": "msg",
+              "who": "leo",
+              "text": "Bro. WAS?!",
+              "x": 60,
+              "y": 620,
+              "w": 900,
+              "a": [
+                [
+                  "right",
+                  1000,
+                  400
+                ]
+              ]
+            },
+            {
+              "k": "msg",
+              "who": "aysha",
+              "text": "Ich komme.",
+              "x": 60,
+              "y": 840,
+              "w": 900,
+              "a": [
+                [
+                  "right",
+                  1600,
+                  400
+                ]
+              ]
+            },
+            {
+              "k": "msg",
+              "who": "mila",
+              "text": "Ich bring eine Liste.",
+              "x": 60,
+              "y": 1060,
+              "w": 900,
+              "a": [
+                [
+                  "right",
+                  2200,
+                  400
+                ]
+              ]
+            },
+            {
+              "k": "msg",
+              "who": "jonas",
+              "text": "Bin schon da.",
+              "x": 60,
+              "y": 1280,
+              "w": 900,
+              "a": [
+                [
+                  "right",
+                  2800,
+                  400
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "dur": 2600,
+          "bg": "night",
+          "rays": false,
+          "els": [
+            {
+              "k": "scene",
+              "key": "garage",
+              "x": 0,
+              "y": 420,
+              "w": 1080,
+              "h": 1000,
+              "a": [
+                [
+                  "zoom",
+                  0,
+                  2600,
+                  "linear"
+                ],
+                [
+                  "shake",
+                  1400,
+                  500
+                ]
+              ]
+            },
+            {
+              "k": "rect",
+              "x": 0,
+              "y": 420,
+              "w": 1080,
+              "h": 1000,
+              "style": "border-top:9px solid #1d1d1b;border-bottom:9px solid #1d1d1b"
+            },
+            {
+              "k": "burst",
+              "text": "KNAAARRR...",
+              "x": 180,
+              "y": 1440,
+              "w": 720,
+              "h": 300,
+              "fs": 76,
+              "fill": "#e8b22c",
+              "a": [
+                [
+                  "pop",
+                  1300,
+                  400
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "dur": 3000,
+          "bg": "mustard",
+          "els": [
+            {
+              "k": "rect",
+              "x": 0,
+              "y": 0,
+              "w": 1080,
+              "h": 1920,
+              "style": "background:#fff",
+              "z": 30,
+              "a": [
+                [
+                  "flash",
+                  0,
+                  500
+                ]
+              ]
+            },
+            {
+              "k": "scene",
+              "key": "k1",
+              "x": 0,
+              "y": 520,
+              "w": 1080,
+              "h": 880,
+              "a": [
+                [
+                  "slam",
+                  0,
+                  500
+                ]
+              ]
+            },
+            {
+              "k": "rect",
+              "x": 0,
+              "y": 511,
+              "w": 1080,
+              "h": 898,
+              "style": "border-top:9px solid #1d1d1b;border-bottom:9px solid #1d1d1b"
+            },
+            {
+              "k": "burst",
+              "text": "BAM!",
+              "x": 60,
+              "y": 250,
+              "w": 520,
+              "fs": 160,
+              "fill": "#ff7a5c",
+              "tc": "#fff6e6",
+              "a": [
+                [
+                  "slam",
+                  200,
+                  400
+                ]
+              ]
+            },
+            {
+              "k": "burst",
+              "text": "EIN FOOD-\nTRUCK?!",
+              "x": 400,
+              "y": 1350,
+              "w": 620,
+              "h": 360,
+              "fs": 80,
+              "fill": "#fff6e6",
+              "a": [
+                [
+                  "pop",
+                  900,
+                  400
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "dur": 3600,
+          "bg": "petrol",
+          "els": [
+            {
+              "k": "head",
+              "who": "leo",
+              "x": 70,
+              "y": 300,
+              "w": 230,
+              "rot": -6,
+              "a": [
+                [
+                  "pop",
+                  0,
+                  350
+                ]
+              ]
+            },
+            {
+              "k": "small",
+              "text": "Ich mach den Hype.",
+              "x": 330,
+              "y": 370,
+              "fs": 62,
+              "a": [
+                [
+                  "left",
+                  150,
+                  400
+                ]
+              ]
+            },
+            {
+              "k": "head",
+              "who": "jonas",
+              "x": 70,
+              "y": 590,
+              "w": 230,
+              "rot": 5,
+              "a": [
+                [
+                  "pop",
+                  600,
+                  350
+                ]
+              ]
+            },
+            {
+              "k": "small",
+              "text": "Die Fritteuse\nkrieg ich hin.",
+              "x": 330,
+              "y": 620,
+              "fs": 62,
+              "a": [
+                [
+                  "left",
+                  750,
+                  400
+                ]
+              ]
+            },
+            {
+              "k": "head",
+              "who": "aysha",
+              "x": 70,
+              "y": 880,
+              "w": 230,
+              "rot": -4,
+              "a": [
+                [
+                  "pop",
+                  1200,
+                  350
+                ]
+              ]
+            },
+            {
+              "k": "small",
+              "text": "Ich mach die Finanzen.",
+              "x": 330,
+              "y": 950,
+              "fs": 62,
+              "a": [
+                [
+                  "left",
+                  1350,
+                  400
+                ]
+              ]
+            },
+            {
+              "k": "head",
+              "who": "mila",
+              "x": 70,
+              "y": 1170,
+              "w": 230,
+              "rot": 6,
+              "a": [
+                [
+                  "pop",
+                  1800,
+                  350
+                ]
+              ]
+            },
+            {
+              "k": "small",
+              "text": "Ich mach die Liste.",
+              "x": 330,
+              "y": 1240,
+              "fs": 62,
+              "a": [
+                [
+                  "left",
+                  1950,
+                  400
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "dur": 2600,
+          "bg": "coral",
+          "els": [
+            {
+              "k": "big",
+              "text": "Clique\nfor life.",
+              "x": 0,
+              "y": 600,
+              "w": 1080,
+              "fs": 200,
+              "align": "center",
+              "a": [
+                [
+                  "slam",
+                  0,
+                  450
+                ]
+              ]
+            },
+            {
+              "k": "head",
+              "who": "leo",
+              "x": 760,
+              "y": 1150,
+              "w": 220,
+              "rot": 8,
+              "a": [
+                [
+                  "pop",
+                  700,
+                  350
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "dur": 2800,
+          "bg": "mustard",
+          "els": [
+            {
+              "k": "brand",
+              "x": 90,
+              "y": 380,
+              "w": 900,
+              "fs": 170,
+              "a": [
+                [
+                  "slam",
+                  0,
+                  500
+                ]
+              ]
+            },
+            {
+              "k": "box",
+              "text": "Und so fing alles an.",
+              "x": 250,
+              "y": 1240,
+              "fs": 52,
+              "a": [
+                [
+                  "up",
+                  600,
+                  500
+                ]
+              ]
+            }
+          ]
+        }
       ]
     }
   ]
