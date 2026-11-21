@@ -5,8 +5,12 @@ Post images for the Instagram account [@donut.clique](https://instagram.com/donu
 
 | Folder | What |
 |---|---|
-| `templates/` | HTML/SVG templates in the game's look (fonts and colours from the game) |
-| `posts/YYYY-MM-DD-slug/` | one folder per post: `post.png` (1080×1350), `caption.md` |
+| `templates/pop.html` | pop-art comic components (bursts, halftone, rays, balloons) in the game's colours and fonts |
+| `templates/render-pop.js` | renders `posts.json`: carousels and singles as PNG (1080×1350), reels as MP4 (1080×1920, 30 fps) |
+| `templates/portraits.json`, `templates/scenes.json` | the clique's portraits and the game's backgrounds (without the player's own figure) |
+| `posts/<nr>-<slug>/` | one folder per post: `slide-N.png` or `reel.mp4` + `cover.png`, and `caption.md` |
+
+Render: `node templates/render-pop.js [id ...]` (needs Playwright with Chromium and ffmpeg).
 
 Planning and approval live in Notion (Redaktionsplan). Publishing runs through Buffer, scheduled
 once a week after approval.
