@@ -444,7 +444,11 @@
             }
           ]
         }
-      ]
+      ],
+      "sound": {
+        "drop": 2.0,
+        "mood": "hype"
+      }
     },
     {
       "id": "02-leo",
@@ -1105,7 +1109,12 @@
             }
           ]
         }
-      ]
+      ],
+      "sound": {
+        "drop": 6.1,
+        "mood": "dark",
+        "beatMood": "dark"
+      }
     },
     {
       "id": "11-wunschzettel",
@@ -1487,7 +1496,11 @@
             }
           ]
         }
-      ]
+      ],
+      "sound": {
+        "drop": 1.7,
+        "mood": "hype"
+      }
     },
     {
       "id": "15-pov-werkstatt",
@@ -2049,7 +2062,11 @@
             }
           ]
         }
-      ]
+      ],
+      "sound": {
+        "drop": 6.6,
+        "mood": "dark"
+      }
     }
   ]
 }

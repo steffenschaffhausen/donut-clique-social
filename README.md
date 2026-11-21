@@ -10,7 +10,9 @@ Post images for the Instagram account [@donut.clique](https://instagram.com/donu
 | `templates/portraits.json`, `templates/scenes.json` | the clique's portraits and the game's backgrounds (without the player's own figure) |
 | `posts/<nr>-<slug>/` | one folder per post: `slide-N.png` or `reel.mp4` + `cover.png`, and `caption.md` |
 
-Render: `node templates/render-pop.js [id ...]` (needs Playwright with Chromium and ffmpeg).
+| `templates/sound.py` | original soundtrack for the reels: 160 BPM beat in F minor plus comic sound effects synced to the animation (numpy/scipy, no samples) |
+
+Render: `node templates/render-pop.js [id ...]`, then `python3 templates/sound.py [id ...]` for the reels (needs Playwright with Chromium and ffmpeg).
 
 Planning and approval live in Notion (Redaktionsplan). Publishing runs through Buffer, scheduled
 once a week after approval.
