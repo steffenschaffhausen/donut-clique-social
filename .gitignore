@@ -2,6 +2,3 @@
 *.tmp
 node_modules/
 
-# Drafts stay local until Steffen approves them (public repo). Remove these lines when committing approved posts.
-posts.json
-posts/
